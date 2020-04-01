@@ -160,13 +160,11 @@ console.log(students.includes("at"));
 
 
 ///Alan or Sava included in "some"
-function check(element, array){
-    return array.some
+function check(array, value){
+    return array.some(student => student === value)
 }
 
-const checkSava = check("Sava", students);
+const checkSavva = check("Savva", students);
 const checkAlan = check("Alan", students);
 
 console.log(checkAlan +  checkSava);
-
-array.some(element => )
